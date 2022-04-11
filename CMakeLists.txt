@@ -123,6 +123,7 @@ add_mqtt_example(azureiothub azure/azureiothub.c)
 add_mqtt_example(fwpush firmware/fwpush.c)
 add_mqtt_example(fwclient firmware/fwclient.c)
 
+include(GNUInstallDirs)
 
 install(TARGETS wolfmqtt
         DESTINATION ${CMAKE_INSTALL_LIBDIR}
